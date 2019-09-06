@@ -1,0 +1,139 @@
+/* Наведение на меню */
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #fd7e14 !important;
+}
+
+/* Карусель обоев */
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+/* Превью на странице */
+.full-page-image {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.full-page-image #carouselExampleSlidesOnly {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.full-page-image .container {
+    position: relative;
+    z-index: 2;
+}
+
+.full-page-image .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+@media screen and (max-width: 490px) {
+    .display-small {
+        font-size: 2.5rem !important;
+    }
+    #orderForm .btn-custom{
+        width: 75% !important;
+    }
+    .display-small-1 {
+        font-size: 3rem !important;
+    }
+}
+/* Наведение на Оглавление */
+.limits .list-group .list-group-item:hover:not(:first-child) {
+    color: #fd7e14 !important;
+}
+/* Изменяем списки в оглавлении */
+
+#nav-tabContent .list-group-item:hover{
+    color: #fd7e14;
+}
+#list-tab>.list-group-item.active {
+    background-color: #2e2c2be1;
+    border-color: #2e2c2b;
+    color: #fd7e14;
+}
+
+#list-tab>.list-group-item.active:hover {
+    background-color: #2e2c2b;
+    border-color: #2e2c2b;
+}
+#list-tab>.list-group-item {
+    background-color: #2e2c2be1;
+    border-color: #2e2c2b;
+    color: #fff;
+}
+
+#list-tab>.list-group-item:hover {
+    background-color: #2e2c2b;
+    border-color: #2e2c2b;
+}
+
+/* Скрываем ненужный контент */
+.limits {
+    overflow: hidden !important;
+}
+
+/* Масштабируем изображения книг в секции */
+@media (min-width: 768px) and (max-width: 991px) {
+    #aboutBooks img {
+        max-width: 300% !important;
+    }
+}
+/* Делаем красивые ссылки */
+#authors  a,
+footer a {
+    color: #fd7e14 !important;
+}
+
+/* Кнопка */
+.btn-custom{
+    background: #fd7e14 !important;
+    color: #fff !important;
+    border-color: #fd7e14 !important;
+}
+
+#contacts{
+    background: #2e2c2b !important;
+}
+
+.bg-custom{
+    background-color: rgba(56, 55, 55, 0.233);
+    box-shadow: -3px 4px 40px 5px #1b1a1a;
+}

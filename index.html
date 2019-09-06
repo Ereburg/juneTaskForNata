@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Пиши, сокращай!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top  transparent bg-color">
+        <div class="container">
+            <a class="navbar-brand" href="#">EvilNotCry</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#starting">Главная
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#maintainance">О книге</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#aboutBooks">Особенности и Комиксы</a>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#authors">Авторы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Full Page Image Header with Vertically Centered Content -->
+    <!-- <section class="full-page-image" id="starting">
+        <div class="overlay"></div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./images/carousel-6.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/carousel-3-5.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/carousel-2-2.png" alt="Third slide">
+                </div>
+            </div>
+        </div>
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <h2 class="display-4 display-small">Презентация книги </h2>
+                    <p class="lead mb-0">Как создавать сильный текст в информационном стиле. Второе
+                        издание.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <header id="starting">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators d-none">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <!-- Slide One - Set the background image for this slide in the line below -->
+            <div class="carousel-item active" style="background-image: url(./images/carousel-main-3.png);">
+              <div class="carousel-caption bg-custom d-none d-md-block">
+                <h1 class="font-weight-bold display-4">Второе издание</h1>
+                <p class="lead">Как создавать сильный текст в информационном стиле. </p>
+              </div>
+            </div>
+            <!-- Slide Two - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url(./images/carousel-21-main.png)">
+              <div class="carousel-caption bg-custom d-none d-md-block">
+                <h3 class="display-4 font-weight-bold">Презентация книги</h3>
+                <p class="lead">Откройте для себя мир копирайта и коммерческого написания текста с новой стороны.</p>
+              </div>
+            </div>
+            <!-- Slide Three - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url(./images/caorousel- first.png)">
+              <div class="carousel-caption bg-custom d-none d-md-block">
+                <h3 class="display-4 font-weight-bold">Наталья Ситько</h3>
+                <p class="lead">Ваш проводник в этом увлекательном и необычном путешествии.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+        </div>
+      </header>
+
+    <!-- Maintainance Section -->
+    <section class="py-5 mt-5 limits" id="maintainance">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-10 col-md-10 col-lg-6 mr-auto">
+                    <h2 class="font-weight-bold h1 ">Писать интересно, убедительно и без мусора</h2>
+                    <p class="lead ">Книга адресована всем, кто использует текст в работе. Не предназначена
+                        для авторов
+                        художественного текста.</p>
+                </div>
+                <div class="col-lg-1 ">
+                </div>
+                <div class="col-md-10 col-lg-10 mx-auto col-xl-10  w-100 float-left">
+                    <img src="./images/dragon2.png" class="img-fluid " alt="Responsive image">
+                </div>
+                <div class="col-12 col-sm-9 col-md-7 col-lg-4  text-right ml-auto">
+                        <h3 class="h2 font-weight-bold ">Здесь должен быть текст (Содержание)</h3>
+                        <p class="font-weight-light">
+                            И описание.
+                        </p>
+                    </div>
+            </div>
+            <div class="row pt-2 d-none d-xl-flex chapters-large">
+                <div class="d-none d-xl-block col-lg-4">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action bg-dark active">
+                            Глава 1. <br> Отжать воду
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Знакомство</a>
+                        <a href="#" class="list-group-item list-group-item-action">Что в голове у хорошего
+                            автора</a>
+                        <a href="#" class="list-group-item list-group-item-action">Введение в метод</a>
+                        <a href="#" class="list-group-item list-group-item-action ">Вводные</a>
+                        <a href="#" class="list-group-item list-group-item-action">Оценки</a>
+                        <a href="#" class="list-group-item list-group-item-action">Штампы</a>
+                        <a href="#" class="list-group-item list-group-item-action">Заумь</a>
+                        <a href="#" class="list-group-item list-group-item-action ">Эвфемизмы</a>
+                        <a href="#" class="list-group-item list-group-item-action">Отглагольные</a>
+                        <a href="#" class="list-group-item list-group-item-action">Неопределённое</a>
+                        <a href="#" class="list-group-item list-group-item-action">Брехня</a>
+                        <a href="#" class="list-group-item list-group-item-action ">Стоп-слова в
+                            жизни</a>
+                    </div>
+                </div>
+
+                <div class="d-none d-xl-block col-lg-4">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action bg-dark active">
+                            Глава 2. <br> Донести мысль
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Информативность</a>
+                        <a href="#" class="list-group-item list-group-item-action">Синтаксис</a>
+                        <a href="#" class="list-group-item list-group-item-action">Однородные члены </a>
+                        <a href="#" class="list-group-item list-group-item-action ">Сложные
+                            предложения</a>
+                        <a href="#" class="list-group-item list-group-item-action">Абзац</a>
+                        <a href="#" class="list-group-item list-group-item-action">Цепь</a>
+                        <a href="#" class="list-group-item list-group-item-action">Структура</a>
+                        <a href="#" class="list-group-item list-group-item-action ">Заголовок</a>
+                        <a href="#" class="list-group-item list-group-item-action">Дидактика</a>
+                        <a href="#" class="list-group-item list-group-item-action">Факты</a>
+                        <a href="#" class="list-group-item list-group-item-action">Сложные случаи</a>
+                        <a href="#" class="list-group-item list-group-item-action ">О вкусе и здравом
+                            смысле</a>
+                    </div>
+                </div>
+                <div class="d-none d-xl-block col-lg-4">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action bg-dark active">
+                            Глава 3. <br> Рассказать о себе
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Почему люди покупают</a>
+                        <a href="#" class="list-group-item list-group-item-action">Пять правил рассказа о
+                            продукте</a>
+                        <a href="#" class="list-group-item list-group-item-action">Рассказ о себе на сайте</a>
+                        <a href="#" class="list-group-item list-group-item-action ">Регалии</a>
+                        <a href="#" class="list-group-item list-group-item-action">Текст о компании</a>
+                        <a href="#" class="list-group-item list-group-item-action">Как откликаться на
+                            вакансию</a>
+                        <a href="#" class="list-group-item list-group-item-action">Без вранья </a>
+                        <a href="#" class="list-group-item list-group-item-action ">Дело не о словах</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Maintainance for small -->
+    <section class="chapters-small d-block d-xl-none">
+        <div class="container pb-5">
+            <div class="row">
+                <div class="d-block d-xl-none col-12">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+                            href="#list-home" role="tab" >Глава 1. Отжать воду</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+                            href="#list-profile" role="tab" >Глава 2. Донести мысль</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+                            href="#list-messages" role="tab" > Глава 3. Рассказать о
+                            себе</a>
+                        <!-- <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                                href="#list-settings" role="tab" aria-controls="settings">Settings</a> -->
+                    </div>
+                </div>
+                <div class="d-block d-xl-none col-12 mt-5">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                            aria-labelledby="list-home-list">
+                            <div class="list-group">
+                                <!-- <a href="#" class="list-group-item list-group-item-action bg-dark active">
+                                        Глава 1. <br> Отжать воду
+                                    </a> -->
+                                <a href="#" class="list-group-item list-group-item-action">Знакомство</a>
+                                <a href="#" class="list-group-item list-group-item-action">Что в голове у хорошего
+                                    автора</a>
+                                <a href="#" class="list-group-item list-group-item-action">Введение в метод</a>
+                                <a href="#" class="list-group-item list-group-item-action ">Вводные</a>
+                                <a href="#" class="list-group-item list-group-item-action">Оценки</a>
+                                <a href="#" class="list-group-item list-group-item-action">Штампы</a>
+                                <a href="#" class="list-group-item list-group-item-action">Заумь</a>
+                                <a href="#" class="list-group-item list-group-item-action ">Эвфемизмы</a>
+                                <a href="#" class="list-group-item list-group-item-action">Отглагольные</a>
+                                <a href="#" class="list-group-item list-group-item-action">Неопределённое</a>
+                                <a href="#" class="list-group-item list-group-item-action">Брехня</a>
+                                <a href="#" class="list-group-item list-group-item-action ">Стоп-слова в
+                                    жизни</a>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel"
+                            aria-labelledby="list-profile-list">
+                            <div class="list-group">
+                                <!-- <a href="#" class="list-group-item list-group-item-action bg-dark active">
+                                        Глава 2. <br> Донести мысль
+                                    </a> -->
+                                <a href="#" class="list-group-item list-group-item-action">Информативность</a>
+                                <a href="#" class="list-group-item list-group-item-action">Синтаксис</a>
+                                <a href="#" class="list-group-item list-group-item-action">Однородные члены </a>
+                                <a href="#" class="list-group-item list-group-item-action ">Сложные
+                                    предложения</a>
+                                <a href="#" class="list-group-item list-group-item-action">Абзац</a>
+                                <a href="#" class="list-group-item list-group-item-action">Цепь</a>
+                                <a href="#" class="list-group-item list-group-item-action">Структура</a>
+                                <a href="#" class="list-group-item list-group-item-action ">Заголовок</a>
+                                <a href="#" class="list-group-item list-group-item-action">Дидактика</a>
+                                <a href="#" class="list-group-item list-group-item-action">Факты</a>
+                                <a href="#" class="list-group-item list-group-item-action">Сложные случаи</a>
+                                <a href="#" class="list-group-item list-group-item-action ">О вкусе и здравом
+                                    смысле</a>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-messages" role="tabpanel"
+                            aria-labelledby="list-messages-list">
+                            <div class="list-group">
+                                <!-- <a href="#" class="list-group-item list-group-item-action bg-dark active">
+                                        Глава 3. Рассказать о себе
+                                    </a> -->
+                                <a href="#" class="list-group-item list-group-item-action">Почему люди покупают</a>
+                                <a href="#" class="list-group-item list-group-item-action">Пять правил рассказа о
+                                    продукте</a>
+                                <a href="#" class="list-group-item list-group-item-action">Рассказ о себе на сайте</a>
+                                <a href="#" class="list-group-item list-group-item-action ">Регалии</a>
+                                <a href="#" class="list-group-item list-group-item-action">Текст о компании</a>
+                                <a href="#" class="list-group-item list-group-item-action">Как откликаться на
+                                    вакансию</a>
+                                <a href="#" class="list-group-item list-group-item-action">Без вранья </a>
+                                <a href="#" class="list-group-item list-group-item-action ">Дело не о словах</a>
+                            </div>
+                        </div>
+                        <!-- <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                                ...</div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- YouTube Video Section -->
+    <div class="container-fluid my-3">
+        <div class="row">
+            <div class="col-12 col-sm-9 col-md-7 mb-3 text-center mx-auto">
+                <h3 class="h2 font-weight-bold ">Здесь должен быть текст (Книга в текущих реалиях)</h3>
+                <p class="font-weight-light">
+                    И описание к этому тексту, раскрывающее суть видео.
+                </p>
+            </div>
+            <div class="col-md-12 px-0">
+                <iframe class="h-200 w-100 mx-auto" width="560" height="630"
+                    src="https://www.youtube-nocookie.com/embed/qGbeUiSJioI" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Book Presentation Section -->
+    <section class="my-5 pt-5 limits" id="aboutBooks">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-8 col-md-9 mb-3 text-center mx-auto">
+                    <h3 class="h2 font-weight-bold ">Здесь должен быть текст (Особенности книги)</h3>
+                    <p class="font-weight-light">
+                        И описание к этому тексту, раскрывающее суть контента ниже.
+                    </p>
+                </div>
+                <div class="col-10 col-sm-8 col-md-4 text-justify mx-auto">
+                    <h3 class="font-weight-bold mt-5">Писать интересно </h3>
+                    <p class="font-weight-light">
+                        Даже реклама может быть интересной, если подобрать правильные мысли.
+                        Показываем, где их брать и как формулировать.
+                    </p>
+                    <h3 class=" font-weight-bold mt-5">Писать чисто</h3>
+                    <p class=" font-weight-light">
+                        Чем меньше в тексте мусора и воды, тем легче его читать.
+                        Помогаем отжать и очистить текст без ущерба для смысла.
+                    </p>
+                    <h3 class="font-weight-bold d-block mt-5">Писать понятно</h3>
+                    <p class=" font-weight-light mb-5">
+                        Чтобы объяснять сложные вещи простым языком, не нужен талант ‒
+                        нужно лишь понимать технологию объяснения. В книге мы показываем эту технологию.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-8 h-200">
+                    <img src="./images/ch1-2-white.jpg" class="img-fluid " style="max-width: 200%;"
+                        alt="Responsive image">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-8">
+                    <img src="./images/ch1-3-white.jpg" class="img-fluid book-2 d-flex float-right"
+                        style="max-width: 200%;" alt="Responsive image">
+                </div>
+                <div class="col-10 col-sm-8 col-md-4 text-justify mx-auto">
+                    <h3 class="font-weight-bold mt-5">Выделяться на фоне конкурентов </h3>
+                    <p class="font-weight-light">
+                        Все копирайтеры уже умеют нести пургу о «командах единомышленников» и «решении задач бизнеса».
+                        Пора научиться рассказывать о том, что интересно людям.
+                        Половина примеров книги посвящена тому, как рассказывать о свойствах продуктах увлекательно и
+                        правдиво, без убогих штампов и брехни.
+                    </p>
+                    <h3 class=" font-weight-bold mt-5">Создавать доверие</h3>
+                    <p class=" font-weight-light">
+                        Книга учит рассказывать правду о себе и своём продукте, даже если в продукте есть изъяны. Этот
+                        подход требует смелости и честности. Он всегда окупается.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comics Section -->
+
+    <section class="my-5 limits" id="comics">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-9 col-md-6 text-center mx-auto">
+                    <h3 class="h1 font-weight-bold ">А ещё – комиксы</h3>
+                    <p class="font-weight-light">
+                        Книга щедро проиллюстрирована комиксами, которые помогают найти нужную главу и прочитать книгу
+                        до конца.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-12 px-0">
+                    <!--Carousel Wrapper-->
+                    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+                        <!--Indicators-->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+                        </ol>
+                        <!--/.Indicators-->
+                        <!--Slides-->
+                        <div class="carousel-inner" role="listbox">
+                            <!--First slide-->
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="./images/ch3-3-white.jpg" alt="First slide">
+                            </div>
+                            <!--/First slide-->
+                            <!--Second slide-->
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./images/comics-2.jpg" alt="Second slide">
+                            </div>
+                            <!--/Second slide-->
+                            <!--Third slide-->
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./images/comics-3.jpg" alt="Third slide">
+                            </div>
+                            <!--/Third slide-->
+                        </div>
+                        <!--/.Slides-->
+                        <!--Controls-->
+                        <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                        <!--/.Controls-->
+                    </div>
+                    <!--/.Carousel Wrapper-->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-9 col-md-7 text-center mt-5 mx-auto">
+                    <h3 class="h2 font-weight-bold ">Здесь должен быть текст</h3>
+                    <p class="font-weight-light">
+                        И описание к этому тексту, раскрывающее суть видео.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-12 px-0 mt-5">
+                    <iframe width="560" height="615" src="https://www.youtube.com/embed/XnYBv9aNzek"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                        class="w-100"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Authors Section -->
+    <section class="mb-5" id="authors">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 mb-5 text-center mx-auto">
+                    <h3 class="h1 font-weight-bold ">А что насчет авторов?</h3>
+                    <p class="lead"><small class="text-muted">Пара слов о людях, изменивших мир копирайтинга</small></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-9 col-lg-5 mx-auto mb-5 align-self-center">
+                    <img src="./images/max-2.jpg" class="img-fluid" style="box-shadow: -3px 4px 10px 0px;"
+                        alt="Responsive image">
+                </div>
+                <div class="col-12 col-sm-12 col-md-9 col-lg-6 text-justify my-auto mx-auto">
+                    <h3 class=" font-weight-bold ">Максим Ильяхов</h3>
+                    <p class="font-weight-light">
+                        Редактор, основатель сервиса проверки текста «Главред». Автор
+                        <a href="http://maximilyahov.ru/hello/">рассылки Главреда</a> — самой
+                        популярной рассылки о тексте и редактуре в России. В августе 2016 года на рассылку подписаны 36
+                        тысяч человек.</p>
+                    <p class="font-weight-light">
+                        Ректор <a href="http://artgorbunov.ru/school/editors/">Школы редакторов</a>
+                        Дизайн-бюро Артема Горбунова, автор
+                        <a href="http://artgorbunov.ru/educenter/">курса «Информационный стиль и
+                            редактура текста»</a> . Автор <a href="http://maximilyahov.ru/soviet/">четырехсот статей</a>
+                        о редактуре, рекламе, контент-маркетинге, работе редактора и отношениях с клиентом.
+
+                    </p>
+                    <p class="font-weight-light">
+                        Главный редактор <a href="http://journal.tinkoff.ru/">«Тиньков-журнала»</a> , ранее — рассылки
+                        «Мегаплана».
+                        Автор учебника редактуры для издателя профессиональной периодики «Актион-медиа».
+                    </p>
+                    <p class="font-weight-light">
+                        Лингвист, выпускник МГУ им. М. В. Ломоносова, кандидат педагогических наук.
+                    </p>
+                    <p class="font-weight-light">
+                        Сайт: <a class="text-orange" href="https://www.maximilyahov.ru">maximilyahov.ru</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-sm-12 col-md-9 col-lg-6 mx-auto text-justify my-auto order-lg-1 order-2">
+                    <h3 class=" font-weight-bold ">Людмила Сарычева </h3>
+                    <p class="font-weight-light">
+                        Редактор, соавтор «Рассылки Главреда» и «Продвинутого курса Главреда». Главный редактор
+                        «Модульбанка»: разработала редполитику и инструкции для составления писем, смс, новостей и
+                        интерфейса. Главред <a href="https://delo.modulbank.ru/">сайта для предпринимателей «Дело»</a> .
+                    </p>
+                    <p class="font-weight-light">
+                        Автор блога о редактуре и работе редактора, статей о финансовой грамотности. Ранее — редактор
+                        рассылки «Мегаплана».
+                    </p>
+                    <p class="font-weight-light">
+                        Автор статей <a href="http://journal.tinkoff.ru/">«Тиньков-журнала»</a>. Автор учебника
+                        редактуры
+                        <a href="https://letters.glvrd.ru/">«Новые правила деловой переписки»</a> .
+                        для издателя профессиональной периодики «Актион-медиа».
+                    </p>
+                    <p class="font-weight-light">
+                        Преподаватель курса «Информационный стиль и редактура текста» в бюро Горбунова.
+                        Ведет <a href="https://t.me/svarila_kompotique">канал с редакторскими советами в телеграме</a> .
+                    </p>
+                    <p class="font-weight-light">
+                        Сайт: <a href="https://www.kompotique.ru">kompotique.ru</a>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-9 col-lg-5 mx-auto mb-5 order-lg-2 order-1">
+                    <img src="./images/luda.jpg" class="img-fluid" style="box-shadow: -3px 4px 10px 0px;"
+                        alt="Responsive image">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="my-5" id="orderForm">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 mx-auto">
+                    <h3 class="h1 font-weight-bold text-center">Закажите книгу прямо сейчас</h3>
+                </div>
+                <div class="col-sm-12 mx-auto">
+                    <form class="mt-4 text-center">
+                        <div class="form-row text-justify">
+                            <div class="col">
+                                <!-- <label for="clientName">Ваше имя</label> -->
+                                <input type="text" class="form-control" id="clientName" placeholder="Введите имя"
+                                    aria-describedby="passwordHelpBlock" required>
+                                <small id="passwordHelpBlock" class="form-text text-muted text-center">
+                                    Поле не должно содержать чисел, спецсимволов и смайликов.
+                                </small>
+                            </div>
+                            <div class="col">
+                                <!-- <label for="phoneNumber">Ваш номер телефона</label> -->
+                                <input type="tel" class="form-control" id="phoneNumber"
+                                    placeholder="Введите номер телефона" aria-describedby="passwordHelpBlock2" required>
+                                <small id="passwordHelpBlock2" class="form-text text-muted text-center">
+                                    Поле не должно содержать не должно содержать букв, спецсимволов и смайликов.
+                                </small>
+                            </div>
+                        </div>
+                        <button type="submit"
+                            class="btn btn-primary btn-large w-50 mx-auto mt-5 mb-4 py-3 btn-custom font-weight-bold">Оформить
+                            заказ!</button>
+                        <div class="form-check col-10 mx-auto">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                            <label class="form-check-label" for="exampleCheck1">Согласие на обработку персональных
+                                данных</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer mt-auto py-3 text-white font-weight-light bg-dark" id="contacts">
+        <div class="container">
+            <!-- Footer -->
+            <div class="page-footer font-small blue pt-4">
+                <!-- Footer Links -->
+                <div class="container-fluid text-center text-md-left">
+                    <!-- Grid row -->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-6 mt-md-0 mt-3">
+                            <!-- Content -->
+                            <h5 class="h4 font-weight-bold">Также Вы можете связаться с нами:</h5>
+                            <p class=" font-weight-light">По почте <a href="mailto:example@mail.ru">example@mail.ru</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+                        <hr class="clearfix w-100 d-md-none pb-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 mb-md-0 mb-3">
+                            <!-- Links -->
+                            <h5 class="">Полезные сылки</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#!">Ссылка 1</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Ссылка 2</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Ссылка 3</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Ссылка 4</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Grid column -->
+                        <!-- Grid column -->
+                        <div class="col-md-3 mb-md-0 mb-3">
+                            <!-- Links -->
+                            <h5 class="">Инфо</h5>
+                            <ul class="list-unstyled font-weight-light">
+                                <li>
+                                    <a href="#!">Ссылка 1</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Ссылка 2</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Ссылка 3</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Ссылка 4</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+                <!-- Footer Links -->
+                <!-- Copyright -->
+                <div class="footer-copyright font-weight-light text-center py-3">© 2019 Copyright:
+                    <a href="https://www.vk.com/evilnotcry"> EvilNotCry</a>
+                </div>
+                <!-- Copyright -->
+
+            </div>
+            <!-- Footer -->
+        </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
